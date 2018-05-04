@@ -38,8 +38,6 @@ img[alt*=":sparkling_heart:"] { animation: heartbeat 1s infinite;}
 /*Sun        */ img[alt*=":sunny:"] {animation: rotate 2s infinite;}
 /*Hourglass  */ img[alt*=":hourglass:"] {animation: hourglass 2s infinite;}
 /*mmLol      */ .emoji[alt*="mmLol"] {animation: mmlol 5s infinite;}
-.emoji.jumboable { transition: all var(--on-off-transitions) ease !important; }
-.emoji { transition: all var(--on-off-transitions) ease  !important; }
 @keyframes fadeScreen {
 from { opacity: 0;   }
 to {   opacity: 100; }
