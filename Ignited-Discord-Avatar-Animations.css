@@ -1,24 +1,42 @@
 /****************************************************************
 *******************Avatar's and Statuses Section****************
 ****************************************************************/
+.status-online,
+.member-3W1lQa .statusOnline-1FlpW_,
+.xsmall-3afG_L .statusOnline-1FlpW_ {
+  animation: pulse1 var(--status-pulse-speed) linear infinite;
+}
 @keyframes pulse1{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #43B581);}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+}
+.status-idle,
+.member-3W1lQa .statusIdle-1XoSCz,
+.xsmall-3afG_L .statusIdle-1XoSCz {
+  animation: pulse2 var(--status-pulse-speed) linear infinite;
 }
 @keyframes pulse2{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #FAA61A;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
+.status-dnd,
+.member-3W1lQa .statusDnd-2DDKST,
+.xsmall-3afG_L .statusDnd-2DDKST {
+  animation: pulse3 var(--status-pulse-speed) linear infinite;
+}
 @keyframes pulse3{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #F04747;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
+.member-3W1lQa .statusStreaming-2eqoUF {
+	animation: pulse5 var(--status-pulse-speed) linear infinite;
+}
 @keyframes pulse5{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #747F8D;}
+	50%{box-shadow: 1px 1px 20px #593695;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
 }
 /*Profile Role Shadow*/
