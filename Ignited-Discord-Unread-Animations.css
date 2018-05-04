@@ -1,0 +1,74 @@
+/*Unread Pulse*/
+.guilds-wrapper .guilds .guild.unread:after {
+	content: '';
+	position: relative;
+	display: block;
+	background: transparent !important;
+	opacity: 1;
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	top: -50px;
+	border-radius: 0px 8px 0px 8px;
+	pointer-events: none;
+	animation: pulseunread var(--on-off-unread-pulse) linear infinite;
+	transition: all var(--on-off-transitions) ease-in-out  !important;
+}
+.guilds-wrapper .guilds .guild.unread:hover:after {
+	border-radius: 50px;
+}
+/*Unread Pulse Animation*/ 
+@keyframes pulseunread { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+  0%{box-shadow: 0px 0px 1px rgba(0,0,0,0);}
+  12%{box-shadow: 0px 0px 5px rgba(255,255,0,0.3);}
+  24%{box-shadow: 0px 0px 10px rgba(255,170,0,0.6);}
+  36%{box-shadow: 0px 0px 15px rgba(255,100,0,1);}    
+  50%{box-shadow: 0px 0px 20px rgba(255,0,0,1);}
+  64%{box-shadow: 0px 0px 15px rgba(255,100,0,1);}
+  76%{box-shadow: 0px 0px 10px rgba(255,170,0,0.6);}
+  88%{box-shadow: 0px 0px 5px rgba(255,255,0,0.3);}    
+  100%{box-shadow: 0px 0px 1px rgba(0,0,0,0);} 
+}
+/*Mention Unread Counter*/
+.wrapper-232cHJ {
+	background-color: rgba(255,90,0,1);
+	animation: pulseunreadmention var(--on-off-unread-pulse) linear infinite;
+}
+@keyframes pulseunreadmention { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+	0%{box-shadow: 0px 0px 0px rgba(0,0,0,0);}
+	12%{box-shadow: 0px 0px 1px rgba(255,255,0,1);}
+	24%{box-shadow: 0px 0px 5px rgba(255,170,0,1);}
+	36%{box-shadow: 0px 0px 10px rgba(255,100,0,1);}    
+	50%{box-shadow: 0px 0px 15px rgba(255,0,0,1);}
+	64%{box-shadow: 0px 0px 10px rgba(255,100,0,1);}
+	76%{box-shadow: 0px 0px 5px rgba(253,170,0,1);}
+	88%{box-shadow: 0px 0px 1px rgba(255,255,0,1);}    
+	100%{box-shadow: 0px 0px 0px rgba(0,0,0,0);} 
+}
+/*Unread Badge*/
+.unread-1Dp-OI {
+	background-color: darkred;
+}
+.unread-1Dp-OI:after {
+	content: '';
+	position: relative;
+	display: block;
+	background: transparent;
+	border-radius: 3px;
+	width: 227px;
+	height: 32px;
+	margin-left: 8px;
+	margin-top: -12px;
+	animation: pulseunreadchannel var(--on-off-unreadchannel-pulse) linear infinite;
+}
+@keyframes pulseunreadchannel { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+	0%{border-left:0px solid rgba(0,0,0,0);}
+	12%{border-left: 1px solid rgba(255,0,0,0.25);}
+	24%{border-left: 2px solid rgba(255,0,0,0.50);}
+	36%{border-left: 3px solid rgba(255,0,0,0.75);}    
+	50%{border-left: 4px solid rgba(255,0,0,1);}
+	64%{border-left: 3px solid rgba(255,0,0,0.75);}
+	76%{border-left: 2px solid rgba(255,0,0,0.50);}
+	88%{border-left: 1px solid rgba(255,0,0,0.25);}    
+	100%{border-left: 0px solid rgba(0,0,0,0);} 
+}
