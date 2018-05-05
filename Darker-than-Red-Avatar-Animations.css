@@ -6,7 +6,7 @@
 	background-size : cover !important;
 	transition      : all .4s ease !important;
 	opacity         : 1 !important;
-	animation       : pulse 2.5s linear infinite;
+	animation       : pulse 2.5s linear infinite!important;
 }
 @keyframes pulse{
     0%{box-shadow: 1px 1px 20px rgba(0,0,0,0);} 
