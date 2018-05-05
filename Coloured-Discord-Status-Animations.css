@@ -43,18 +43,3 @@
 	50%{box-shadow: 1px 1px 20px #593695;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
 }
-/*Profile Role Shadow*/
-.message-group .user-name::before{
-	content: '';
-	display: inline-block;
-	position: absolute;
-	left: -5px;
-	top: 27px;
-	width: 55px;
-	height: 54px;
-	background: transparent;
-	border-radius: 0px 8px 0px 8px;
-	animation: pulse-45J42t var(--profile-pulse-speed) linear infinite;
-	pointer-events: inherit;
-	transition: all var(--on-off-transitions) ease-in-out !important;
-}

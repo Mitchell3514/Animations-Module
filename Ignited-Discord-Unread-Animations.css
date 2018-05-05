@@ -11,7 +11,7 @@
 	top: -50px;
 	border-radius: 0px 8px 0px 8px;
 	pointer-events: none;
-	animation: pulseunread var(--on-off-unread-pulse) linear infinite;
+	animation: pulseunread 4s linear infinite;
 	transition: all var(--on-off-transitions) ease-in-out  !important;
 }
 .guilds-wrapper .guilds .guild.unread:hover:after {
@@ -32,7 +32,7 @@
 /*Mention Unread Counter*/
 .wrapper-232cHJ {
 	background-color: rgba(255,90,0,1);
-	animation: pulseunreadmention var(--on-off-unread-pulse) linear infinite;
+	animation: pulseunreadmention 4s linear infinite;
 }
 @keyframes pulseunreadmention { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
 	0%{box-shadow: 0px 0px 0px rgba(0,0,0,0);}
@@ -59,7 +59,7 @@
 	height: 32px;
 	margin-left: 8px;
 	margin-top: -12px;
-	animation: pulseunreadchannel var(--on-off-unreadchannel-pulse) linear infinite;
+	animation: pulseunreadchannel 3s linear infinite;
 }
 @keyframes pulseunreadchannel { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
 	0%{border-left:0px solid rgba(0,0,0,0);}
