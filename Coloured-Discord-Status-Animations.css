@@ -5,9 +5,9 @@
 .member-3W1lQa .statusOnline-1FlpW_,
 .xsmall-3afG_L .statusOnline-1FlpW_ {
   border: 2px solid #43B581 !important;
-  animation: pulse1 2.5 linear infinite;
+  animation: pulse1 2.5 linear infinite !important;
 }
-@keyframes pulse1{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+@keyframes pulse1{     
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #43B581);}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -16,9 +16,9 @@
 .member-3W1lQa .statusIdle-1XoSCz,
 .xsmall-3afG_L .statusIdle-1XoSCz {
   border: 2px solid #FAA61A !important;
-  animation: pulse2 2.5 linear infinite;
+  animation: pulse2 2.5 linear infinite !important;
 }
-@keyframes pulse2{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+@keyframes pulse2{
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #FAA61A;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
@@ -27,18 +27,18 @@
 .member-3W1lQa .statusDnd-2DDKST,
 .xsmall-3afG_L .statusDnd-2DDKST {
   border: 2px solid #F04747 !important;
-  animation: pulse3 2.5 linear infinite;
+  animation: pulse3 2.5 linear infinite !important;
 }
-@keyframes pulse3{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+@keyframes pulse3{
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #F04747;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .member-3W1lQa .statusStreaming-2eqoUF {
 	border: 2px solid #593695 !important;
-	animation: pulse5 2.5 linear infinite;
+	animation: pulse5 2.5 linear infinite !important;
 }
-@keyframes pulse5{ /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+@keyframes pulse5{
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 	50%{box-shadow: 1px 1px 20px #593695;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
