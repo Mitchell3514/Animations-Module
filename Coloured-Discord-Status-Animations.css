@@ -9,7 +9,7 @@
 }
 @keyframes pulse1{     
     0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
-	50%{box-shadow: 1px 1px 20px #43B581);}
+	50%{box-shadow: 1px 1px 20px #43B581;}
     100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
 }
 .status-idle,
