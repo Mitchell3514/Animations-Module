@@ -55,13 +55,13 @@ to {   opacity: 100; }
 @keyframes mmlol    {0% { transform: rotate(0deg); }69% { transform: rotate(0deg); }70% { transform: rotate(-90deg); }99% { transform: rotate(-90deg); }100% { transform: rotate(0deg); }}
 @keyframes vibrate  {25%{transform: translateX(3px) translateY(-2px)}50%{transform: translateX(-1px) translateY(3px)}75%{transform: translateX(-4px) translateY(-2px)}100%{transform: translateX(2px) translateY(-1px)}}
 .emoji.jumboable {
-	transform: scale(1.5);
+	transform: scale(1);
 	transition: all 100ms ease-in-out;
 }
 .emoji:hover,
 .emote:hover,
 .emoji.jumboable:hover {
-	transform: scale(1);
+	transform: scale(1.5);
 }
 @keyframes some {
 0%, 60%, 75%, 100% {
