@@ -2,23 +2,23 @@
 	animation: pulse6 2s linear infinite!important;
 }
 @keyframes pulse6{
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
 	50%{box-shadow: 1px 1px 20px rgba(calc(255 * var(--Darker-than-Red)),calc(255 * var(--Neutralized-Green)),calc(255 * var(--Lighter-than-Blue)),1);}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
 }
 .theme-dark .unread-1Dp-OI {
 	background-color: rgba(calc(220 * var(--Darker-than-Red)),calc(220 * var(--Neutralized-Green)),calc(220 * var(--Lighter-than-Blue)),1) !important;
 	animation: pulse7 2s linear infinite !important;
 }
 @keyframes pulse7{
-    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+    0%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
 	50%{box-shadow: 1px 1px 20px rgba(calc(255 * var(--Darker-than-Red)),calc(255 * var(--Neutralized-Green)),calc(255 * var(--Lighter-than-Blue)),1);}
-    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);} 
+    100%{box-shadow: 1px 1px 1px rgba(0,0,0,0);}
 }*/
-.guild.unread:before {
+.unread-qLkInr:before {
     animation: pulse69 2s infinite;
 }
-.unread-1Dp-OI {
+.unread-qLkInr {
     animation: pulse69 2s infinite;
 }
 .badge,
